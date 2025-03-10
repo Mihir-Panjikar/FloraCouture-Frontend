@@ -1,0 +1,76 @@
+.navbar{
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background:#ffffff;
+    padding: 15px 7%;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+    cursor:pointer;
+}
+
+ul{
+    flex :1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  cursor: pointer;
+}
+
+.Login button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+
+}
+
+.Login button:active{
+    background: #7a7a7a;
+}
+
+.search{
+    width: 20px;
+    cursor:pointer;
+    
+}
+
+.search-box{
+    display: flex;
+    align-items:center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+   
+}
+
+.search-box input{
+
+padding: 6px;
+background: transparent;
+border: 0;
+outline: 0;
+color: #fff;
+font-size: 18px;
+max-width: 200px;
+}
+.search-box input::placeholder{
+    color: #fff;
+}
+
